@@ -19,7 +19,7 @@ export const Contact = () => {
         setStatus('Sending...');
 
         try {
-            const res = await fetch("https://osknot1.app.n8n.cloud/webhook-test/9d35285e-295f-4dae-8b39-864717ea247c", {
+            const res = await fetch("https://osknot1.app.n8n.cloud/webhook/9d35285e-295f-4dae-8b39-864717ea247c", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
