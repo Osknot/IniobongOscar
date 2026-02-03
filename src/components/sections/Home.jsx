@@ -21,7 +21,7 @@ export const Home = ()=>{
 
         <p
             className="text-gray-400 text-lg mb-8 max-w-lg mx-auto"
-        >I'm myself, a brand, creating solutions that bridge the gap between technology and human experience. Trust me, I love speaking. Have a cool time here, be sure to contact me</p>
+        >I'm myself, a brand, creating solutions that bridge the gap between technology and human experience. Trust me, I love speaking. Have a cool time here, be sure to send a message😁</p>
 
         <div className="flex justify-center space-x-4">
             <a href="#projects" className="bg-blue-600  text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130, 246, 0.4)] ">View Projects</a>

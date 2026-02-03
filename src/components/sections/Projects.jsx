@@ -1,6 +1,41 @@
 import { RevealOnScroll } from "../RevealOnScroll"
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
+
+export const ViewProject = () =>{
+    return(
+          <div className="flex justify-between items-center">
+            <a 
+            
+            className="text-blue-400 hover:text-blue-300 transition-colors my-4 "
+            >View Project&#8594;</a>
+
+            <div className="flex gap-4 mt-4">
+
+            
+            <a 
+                    href="https://www.linkedin.com/in/iniobongoscar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 transition-colors text-2xl"
+                >
+                    <FaLinkedin />
+                </a>
+
+                <a 
+                    href="https://github.com/Osknot"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-gray-200 transition-colors text-2xl"
+                >
+                    <FaGithub />
+                </a>
+            </div>
+        </div>
+    )
+
+}
+
 export const Projects = () => {
     return <section 
     id="projects"
@@ -27,35 +62,8 @@ export const Projects = () => {
                             )
                         })}
                     </div>
-
-                    <div className="flex justify-between items-center">
-                        <a 
-                        href="#"
-                        className="text-blue-400 hover:text-blue-300 transition-colors my-4 "
-                        >View Project&#8594;</a>
-
-                        <div className="flex gap-4 mt-4">
-
-                        
-                        <a 
-                                href="https://www.linkedin.com/in/yourprofile"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-400 hover:text-blue-300 transition-colors text-2xl"
-                            >
-                                <FaLinkedin />
-                            </a>
-
-                         <a 
-                                href="https://github.com/yourusername"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-gray-400 hover:text-gray-200 transition-colors text-2xl"
-                            >
-                                <FaGithub />
-                            </a>
-                        </div>
-                    </div>
+                        <ViewProject/>
+                  
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
@@ -73,35 +81,7 @@ export const Projects = () => {
                             )
                         })}
                     </div>
-
-                    <div className="flex justify-between items-center">
-                        <a 
-                        href="#"
-                        className="text-blue-400 hover:text-blue-300 transition-colors my-4 "
-                        >View Project&#8594;</a>
-
-                        <div className="flex gap-4 mt-4">
-
-                        
-                        <a 
-                                href="https://www.linkedin.com/in/yourprofile"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-400 hover:text-blue-300 transition-colors text-2xl"
-                            >
-                                <FaLinkedin />
-                            </a>
-
-                         <a 
-                                href="https://github.com/yourusername"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-gray-400 hover:text-gray-200 transition-colors text-2xl"
-                            >
-                                <FaGithub />
-                            </a>
-                        </div>
-                    </div>
+                        <ViewProject/>
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
@@ -119,35 +99,7 @@ export const Projects = () => {
                             )
                         })}
                     </div>
-
-                   <div className="flex justify-between items-center">
-                        <a 
-                        href="#"
-                        className="text-blue-400 hover:text-blue-300 transition-colors my-4 "
-                        >View Project&#8594;</a>
-
-                        <div className="flex gap-4 mt-4">
-
-                        
-                        <a 
-                                href="https://www.linkedin.com/in/yourprofile"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-400 hover:text-blue-300 transition-colors text-2xl"
-                            >
-                                <FaLinkedin />
-                            </a>
-
-                         <a 
-                                href="https://github.com/yourusername"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-gray-400 hover:text-gray-200 transition-colors text-2xl"
-                            >
-                                <FaGithub />
-                            </a>
-                        </div>
-                    </div>
+                        <ViewProject/>
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
@@ -165,36 +117,7 @@ export const Projects = () => {
                             )
                         })}
                     </div>
-
-
-                    <div className="flex justify-between items-center">
-                        <a 
-                        href="#"
-                        className="text-blue-400 hover:text-blue-300 transition-colors my-4 "
-                        >View Project&#8594;</a>
-
-                        <div className="flex gap-4 mt-4">
-
-                        
-                        <a 
-                                href="https://www.linkedin.com/in/yourprofile"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-400 hover:text-blue-300 transition-colors text-2xl"
-                            >
-                                <FaLinkedin />
-                            </a>
-
-                         <a 
-                                href="https://github.com/yourusername"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-gray-400 hover:text-gray-200 transition-colors text-2xl"
-                            >
-                                <FaGithub />
-                            </a>
-                        </div>
-                    </div>
+                        <ViewProject/>
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
@@ -213,35 +136,7 @@ export const Projects = () => {
                         })}
                     </div>
 
-
-                    <div className="flex justify-between items-center">
-                        <a 
-                        href="#"
-                        className="text-blue-400 hover:text-blue-300 transition-colors my-4 "
-                        >View Project&#8594;</a>
-
-                        <div className="flex gap-4 mt-4">
-
-                        
-                        <a 
-                                href="https://www.linkedin.com/in/yourprofile"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-400 hover:text-blue-300 transition-colors text-2xl"
-                            >
-                                <FaLinkedin />
-                            </a>
-
-                         <a 
-                                href="https://github.com/yourusername"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-gray-400 hover:text-gray-200 transition-colors text-2xl"
-                            >
-                                <FaGithub />
-                            </a>
-                        </div>
-                    </div>
+                        <ViewProject/>
                 </div>
 
                 
