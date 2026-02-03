@@ -107,10 +107,14 @@ export const About = () =>{
                         <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
                         <ul className="list-disc list-inside text-gray-300 space-y-2">
                             <li>
-                               <strong>B.S.c in Electrical Engineering</strong> - Obuda University (2023-Present) GPA: 4.94/5.0
+                               <strong>B.S.c in Electrical Engineering</strong> - Obuda University (2024-Present) GPA: 4.94/5.0
                             </li>
                             <li>
                                 Relevant Coursework: Data Structures, Algorithms, Database Systems, Web Development, Software Engineering...
+                            </li>
+
+                            <li>
+                               <strong>High School</strong> - Redemption Academy (2017-2023) Best Graduating Student
                             </li>
                         </ul>
                 </div>
@@ -119,13 +123,20 @@ export const About = () =>{
                         <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
                         <div className="space-y-4 text-gray-300">
                             <div>
-                                <h4 className="font-semibold">Software Engineer at ABC (2023-present)</h4>
+                                <h4 className="font-semibold">Software development Projects</h4>
                             <p>Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver high-quality software solutions.</p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold">Intern something ABC (2023-present)</h4>
-                            <p>Assisted in Building front-end components and integrated APIs</p>
+                                <h4 className="font-semibold">I-Pro Hungary</h4>
+                            <ul className="list-disc list-inside text-gray-300 space-y-2">
+                            <li>
+                               Assembled parts used in automotive and electrical components, ensuring quality and precision in line with company standards
+                            </li>
+                            <li>
+                                Gained hands-on experience with manufacturing processes and quality checks
+                            </li>
+                        </ul>
                             </div>
                             
                         </div>
