@@ -16,7 +16,7 @@ export const RevealOnScroll = ({children}) =>{
 
         //this avoids memory leaks
         return () => observer.disconnect();
-    }, );
+    }, []);
     //the div as wrapper that helps to determine if we want to reveal that information or not
     //Use ref to detect if we are scrolling on that specific div or not
     //Use effect to help us determine if the current ref is intesection the section we are scrolling through

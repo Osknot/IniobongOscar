@@ -45,10 +45,10 @@ export const Contact = () => {
     
     return (
         <section id="contact"
-        className="min-h-screen flex items-center justify-center py-20"
+        className="min-h-screen flex items-center justify-center py-20 overflow-x-hidden"
         >
-            <RevealOnScroll>
-                <div className="px-4 w-150">
+            {/*<RevealOnScroll>*/}
+                <div className="mx-auto w-full max-w-[720px] px-6 sm:px-8">
                     <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">Get in Touch</h2>
 
                     <form 
@@ -102,7 +102,7 @@ export const Contact = () => {
                         <p className="text-center">{status}</p>
                     </form>
                 </div>
-           </RevealOnScroll>
+           {/*</RevealOnScroll>*/}
         </section>
     )
 }
