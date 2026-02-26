@@ -17,6 +17,7 @@ function App() {
 
   return (
   <>
+    {/* Show when the screen is not fully loaded and then on complete, you set it to true */}
     {!isLoaded && <LoadingScreen onComplete={()=> setIsLoaded(true)}/> } 
     <div className={`min-h-screen transition-fade duration-1000 ${isLoaded ? "fade-in" : "opacity-0"} bg-black text-grey-100`} >
       
@@ -34,3 +35,6 @@ function App() {
 
 
 export default App
+
+//One of the use cases of useState is that you are tracking state so that you do something when that state changes.
+//Everytime, the variable has to be dynamic, meaning that it will change at some point
