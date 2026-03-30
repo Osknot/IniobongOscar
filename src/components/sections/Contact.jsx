@@ -29,7 +29,7 @@ export const Contact = () => {
 
             if (!res.ok) throw new Error("Failed to send");
 
-            setStatus("Thank you for contacting me 😉. Check your mail for my response");
+            setStatus("Thank you for contacting me😉. Check your mail for my response");
             setFormData({ name: "", email: "", message: ""});
         } catch (err) {
             console.error(err);
